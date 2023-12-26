@@ -28,7 +28,7 @@ public class Ccontrolleur {
     private Cservice cservice ;
 
    
-    @PostMapping(path = "/contact/contact")
+    @PostMapping(path = "/contact/dentaire")
     @CrossOrigin(origins  = "http://localhost:4200")
    public Cmodel postdetailsContact(@RequestBody Cmodel cmodel ){
     
